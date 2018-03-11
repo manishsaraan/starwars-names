@@ -5,7 +5,7 @@ cache:
 notifications:
   email: false
 script:
-  - npm run test
+  - npm run test:single
 node_js:
   - '9'
   - '8'

@@ -7,7 +7,8 @@
     "test": "mocha src/index.test.js -w",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "commit" : "git-cz"
+    "commit" : "git-cz",
+    "test:single" : "mocha src/index.test.js"
   },
   "repository": {
     "type": "git",
