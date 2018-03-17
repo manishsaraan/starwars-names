@@ -6,6 +6,7 @@ notifications:
   email: false
 script:
   - npm run test:single
+  - npm run build
 node_js:
   - '9'
   - '8'
