@@ -1,5 +1,5 @@
 
-# starwars-names
+# Starwars Names
 ## Get random star wars names.
 
 [![travis build](https://img.shields.io/travis/manishsaraan/starwars-names.svg?style=flat-square)](https://travis-ci.org/manishsaraan/starwars-names)
