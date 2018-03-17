@@ -14,7 +14,9 @@
 * Install npm packages with command `npm install`
 ## How to use 
 
-```var names =  require('swars-names');
+```
+var names =  require('swars-names');
 var allNames =  names.all;
 var randomName =  names.random();
 var threeRandomNames =  names.random(3);
+```
