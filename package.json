@@ -4,11 +4,12 @@
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w",
+    "test": "mocha tests/index.test.js -w",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
+    "coverage" : "istanbul cover  src/index.js",
     "commit": "git-cz",
-    "test:single": "mocha src/index.test.js"
+    "test:single": "mocha tests/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.1.0",
     "ghooks": "2.0.2",
+    "istanbul": "^0.4.5",
     "mocha": "5.0.4",
     "semantic-release": "^15.0.2",
     "travis-deploy-once": "^4.4.0"
@@ -40,9 +42,9 @@
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
   },
-  "config" : {
-    "ghooks" : {
-      "pre-commit" : "npm run test:single"
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test:single"
     }
   }
 }
